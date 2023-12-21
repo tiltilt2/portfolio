@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DEVELOPER</title>
+</head>
+<body>
+    <header>
+        <p id="logo"><strong>developer</strong></p>
+        <ul>
+            <li><a href="#one">о себе</a></li>
+            <li><a href="#two">мои работы</a></li>
+            <li><a href="#three">услуги</a></li>
+            <li><a href="#four">обратная связь</a></li>
+        </ul>
+    </header>        
+        <div class="home">
+            <h1><strong>профессионал</strong></h1>
+            <h3>html/css</h3>
+        </div>
+        <div class="ocebe" id="one">
+            <img src="img/myface.jpeg" alt="Алиса Тильтова">
+            <h4>Алиса Тильтова</h4>
+            <p>Всем привет! Я профессиональный верстальщик <mark>HTML/CSS</mark>. Занимаюсь прораммированием с рождения, поэтому смело могу называть себя профи в этом деле. Мне всего 16 лет, а за плечами огромное количество работ. <br> На данном сайте вы можите ознакомиться с моими работами и даже заказать верстку у меня. Ну или просто оставить отзыв. 
+            </p>
+        </div>
+        <div class="projects" id="two">
+            <h3><strong>мои работы</strong></h3>
+            <div class="blocks">
+                <div class="block">
+                    <h4>сайт визитка</h4>
+                    <a href=" https://tiltilt2.github.io/website/"><img src="img/ВИЗИТКА_сайт.png" alt="сайт визитка"></a>
+                    <p><strong>Время создания: </strong>2 дня <br>
+                    <strong>Сложность: </strong>5/5<br>
+                    <strong>Примерная цена: </strong><mark>1000$</mark></p>
+                </div>
+                <div class="block">
+                    <h4>жк мелодия</h4>
+                    <a href="https://tiltilt2.github.io/melodia/"><img src="img/ЖК_сайт.png" alt="жк мелодия"></a>
+                    <p><strong>Время создания: </strong>1 день<br>
+                        <strong>Сложность: </strong>3/5<br>
+                        <strong>Примерная цена: </strong><mark>500$</mark></p>
+                </div>
+                <div class="block">
+                    <h4>down the steam</h4>
+                    <a href="https://tiltilt2.github.io/test2/"><img src="img/КР_сайт.png" alt="down the steam"></a>
+                    <p><strong>Время создания: </strong>3 часа<br>
+                        <strong>Сложность: </strong>1/5<br>
+                        <strong>Примерная цена: </strong> <mark>100$</mark></p>
+                </div>
+            </div>
+        </div>
+        <div class="uslugi" id="three">
+            <h3>услуги</h3>
+            <div class="blocksOne">
+                <div class="blockOne">
+                    <h4>html</h4>
+                    <img src="img/html.PNG" alt="html">
+                    <p><strong>Опыт работы: </strong>16 лет <br>
+                        <strong>Сложность: </strong><mark>1/5</mark>
+                    </p>
+                </div>
+                <div class="blockOne">
+                    <h4>css</h4>
+                    <img src="img/css.PNG" alt="css">
+                    <p><strong>Опыт работы: </strong>16 лет <br>
+                        <strong>Сложность: </strong><mark>1/5</mark>
+                    </p>
+                </div>
+                <div class="blockOne">
+                    <h4>js</h4>
+                    <img src="img/js.PNG" alt="js">
+                    <p><strong>Опыт работы: </strong>16 лет <br>
+                        <strong>Сложность: </strong><mark>5/5</mark>
+                    </p>
+                </div>
+                <div class="blockOne">
+                    <h4>кумир</h4>
+                    <img src="img/kumir.PNG" alt="Кумир">
+                    <p><strong>Опыт работы: </strong>9 лет <br>
+                        <strong>Сложность: </strong><mark>2/5</mark>
+                    </p>
+                </div>
+                <div class="blockOne">
+                    <h4>Pascal ABC</h4>
+                    <img src="img/abc.PNG" alt="PascalABC">
+                    <p><strong>Опыт работы: </strong>9 лет <br>
+                        <strong>Сложность: </strong><mark>2/5</mark>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="four">
+            <h3>обратная связь</h3>
+            <div class="blocksTwo">
+            <div class="blockTwo">
+                <p>Если ты хочешь <mark>оставить отзыв</mark> или <mark>заказать роботу</mark> у меня, заполни форму рядом с котиком. Наши администраторы работают быстро и в течении дня мы ответим вам на указанную почту!</p>
+            </div>
+            <div class="blockTwo">
+                <img src="img/cat.PNG" alt="котик">
+            </div>
+            <div class="blockTwo">
+               <form id="contact-form">
+                <div>
+                    <label for="topic">Тема</label> <br>
+                    <select name="topic" id="topic" required>
+                        <option value="">Заказать услугу</option>
+                        <option value="2">Оставить отзыв</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Ваше имя</label> <br>
+                    <input name="name" id="name" type="text" required>
+                </div>
+                <div class="form_item">
+                    <label for="mail">Почта</label> <br>
+                    <input name="mail" id="mail" type="email" required>
+                </div>
+                <div class="form_item">
+                    <label for="phone">Номер телефона</label> <br>
+                    <input name="phone" id="phone" type="tel" required>
+                </div>
+                <div class="form_item">
+                    <label for="textarea">
+                        Ваш текст<br>
+                    </label>
+                    <textarea name="textarea" id="textarea" rows="3" required ></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit" value="отправить" formaction="#">
+                </div>
+            </form> 
+            </div> 
+            </div>
+            </div>
+        <footer>
+            <div class="phonenumber">
+                <strong class="phonenumber-text">телефон поддержки:</strong><br>
+                <a href="tel:+78431234567" class="phonenumber-phone"><strong>8 (951) 812-80-80</strong></a>
+            </div>
+            <div class="social">
+                <a href="https://web.telegram.org/a/#1209149294"><img src="img/tg.png" alt="тг"></a>
+                <a href="https://vk.com/djismcmc"><img src="img/vk.png" alt="вк"></a>
+                <a href="https://github.com/tiltilt2/projects"><img src="img/githab.png" alt="гитхаб"></a>
+            </div>
+        </footer>
+</body>
+</html>
